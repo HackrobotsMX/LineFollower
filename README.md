@@ -9,14 +9,14 @@ infrarrojos, para seguir una línea de color blanco o negra.
 
 ### Material
 
-*2 LEDs (Del color a tu elección)
-*5 Resistencias de 220 ohms, 330 ohms, 10 k ohms.
-*Cable Dupont (Macho-Hembra, Macho-Macho)
-*Protoboard (Tablilla para pruebas de circuitos electrónicos)
-*2 QRD1114 ó TCRT500 (Sensores Infrarrojos)
-*1 CD4093BE ó SN74LS132N (Circuito Integrado)
-*2 TIP120 (Transistor Darlington)
-*2 Baterías Recargables de 3.7 v al mismo amperaje (las de celular que no uses con carga) o batería de 9V con su
+* 2 LEDs (Del color a tu elección)
+* 5 Resistencias de 220 ohms, 330 ohms, 10 k ohms.
+* Cable Dupont (Macho-Hembra, Macho-Macho)
+* Protoboard (Tablilla para pruebas de circuitos electrónicos)
+* 2 QRD1114 ó TCRT500 (Sensores Infrarrojos)
+* 1 CD4093BE ó SN74LS132N (Circuito Integrado)
+* 2 TIP120 (Transistor Darlington)
+* 2 Baterías Recargables de 3.7 v al mismo amperaje (las de celular que no uses con carga) o batería de 9V con su
 respectivo conector 
 - 1 LM7805 (Regulador de voltaje) 
 - 2 Motorreductores relación 1:200 (los ubicarás porque son de color amarillo) 
