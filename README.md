@@ -18,14 +18,18 @@ infrarrojos, para seguir una línea de color blanco o negra.
 * 2 TIP120 (Transistor Darlington)
 * 2 Baterías Recargables de 3.7 v al mismo amperaje (las de celular que no uses con carga) o batería de 9V con su
 respectivo conector 
-- 1 LM7805 (Regulador de voltaje) 
-- 2 Motorreductores relación 1:200 (los ubicarás porque son de color amarillo) 
-- 2 Llantas para tus motorreductores. 
-- 2 m de Cable AWG No. 22 
-- Rueda loca 
-- Base (sintra o algo que mida 20x30cm)
-Procedimiento:
-1.- La prueba del seguidor se puede dividir en tres partes: sensores, control y potencia (como se muestra en el circuito
+* 1 LM7805 (Regulador de voltaje) 
+* 2 Motorreductores relación 1:200 (los ubicarás porque son de color amarillo) 
+* 2 Llantas para tus motorreductores. 
+* 2 m de Cable AWG No. 22 
+* Rueda loca 
+* Base (sintra o algo que mida 20x30cm)
+
+### Procedimiento:
+1. La prueba del seguidor se puede dividir en tres partes: sensores, control y potencia (como se muestra en el circuito
 1), en donde, el orden no afecta ya que llegaremos al mismo resultado.
+
 Previo al armado del sensor, realizaremos nuestra fuente, en donde, regularemos el voltaje de 7.4 v (las dos baterías
 conectadas en serie) a 5 v por medio de un regulador de voltaje llamado LM7805, el circuito es el siguiente:
+
+*CIRCUITO 1*
