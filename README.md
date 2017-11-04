@@ -103,3 +103,22 @@ Una forma de verificar que nuestro sensor infrarrojo funciona es con nuestra cá
 nuestro ojo no lo percibe.
 
 ![Prueba](https://github.com/HackrobotsMX/LineFollower/blob/master/Circuito5.jpg)
+
+
+O bien, realizando una prueba con un LED; para ello en el esquemático anterior vemos que dice SEÑAL, ahí colocaremos
+nuestro LED de la siguiente manera:
+
+![PruebaLed](https://github.com/HackrobotsMX/LineFollower/blob/master/confColectorLed.PNG)
+
+
+_El circuito funciona de la siguiente manera:_
+
+Si tapamos el sensor detecta un obstáculo, por lo cual hace que nuestro fototransistor se sature, es decir, se cierre el
+circuito entre la resistencia que tiene el colector y la tierra, por lo cual predomina la tierra y el LED no encenderá.
+Si no tapamos el sensor, este no detecta un objeto y el fototransistor se pone en corte, es decir, que no llega una señal a
+la base que lo ponga en saturación, por lo cual predomina la parte positiva de nuestro circuito y se vea encendido el LED.
+
+Te compartimos un ![Video Muestra](https://youtu.be/GUOZxIee6Yk) para que observes la prueba.
+
+
+
