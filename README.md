@@ -172,3 +172,27 @@ sensores, pueden ser el QRD114 pero la configuración o el circuito para ármalo
 que se usó en las imágenes anteriores. Además de que el sensor derecho conecta con el motor izquierdo y el sensor
 izquierdo con el derecho, esto se hace para que cuando deje de detectar la línea, se detenga un motor y el otro que
 sigue en movimiento haga que regrese a la línea el sensor que se salió.
+
+
+#
+
+Ahora procederemos a construir la parte mecánica ![AQUÍ](https://github.com/HackrobotsMX/LineFollower/blob/master/ParteMECANICA.md)
+
+
+**Recuerda que es sólo como ejemplo, pero tú puedes hacerlo con el material que esté a tu alcance.**
+
+Si tienes alguna duda, puedes contactar a jair@hackrobots.io
+
+También puedes abrir un Issue.
+
+
+No olvides seguir nuestras redes sociales para noticias y eventos :point_down: :smiley:
+
+![Facebook](https://www.facebook.com/HackRobotsMX/)
+
+![Twitter](https://twitter.com/HackRobotsMX?lang=es)
+
+![Instagram](https://www.instagram.com/hackrobotsmx/)
+
+![Meetup](www.meetup.com/es-ES/HackrobotsMX/)
+
