@@ -50,4 +50,24 @@ Recuerda que es sólo como ejemplo, pero tú puedes hacerlo con el material que 
 Para montar los sensores tomaremos una pieza como soporte o base, como se muestra en la siguiente imagen, esta base es de Sintra y se le colocó una cinta de aislar, porque vamos a seguir la línea que por lo regular es de 2 cm de ancho. Esto será referencia para conocer a que distancia se colocarán nuestros sensores.
 
 
-![](https://github.com/HackrobotsMX/LineFollower/blob/master/imagen6.JPG) ![](https://github.com/HackrobotsMX/LineFollower/blob/master/imagen7.JPG)
+![imagen 6](https://github.com/HackrobotsMX/LineFollower/blob/master/imagen6.png)
+![imagen 7](https://github.com/HackrobotsMX/LineFollower/blob/master/imagen7.png)
+
+Posteriormente, procedemos a realizar las mediciones de los sensores, los cuales quedarán en los extremos, con el fin de
+que puedan quedar fijos y no destrocemos nuestra base.
+
+![Imagen 8](https://github.com/HackrobotsMX/LineFollower/blob/master/imagen8.png)
+
+Ya que realizamos las mediciones de los sensores, trazamos sobre nuestra base o soporte donde quedarán nuestros
+sensores, como se muestra en la siguiene imagen, hay cuadros rellenos los cuales nos indican que ahí van a ir los
+sensores, por lo cual procederemos a reaizar los cortes para que estos puedan entrar o quedar fijos.
+
+![Imagen 9](https://github.com/HackrobotsMX/LineFollower/blob/master/imagen9.jpg)
+
+Por último, tenemos que fijar la base de los sensores con la base dónde se encuentra la protoboard, los sensores deben tener una altura de aprox 5mm hasta maximo 1cm. Puedes tomar de referencia un lápiz que cuenta con aproximadamente esas distancias.
+
+![Imagen 10](https://github.com/HackrobotsMX/LineFollower/blob/master/imagen91.JPG)
+
+Y con esto finalizamos la parte mecánica, teniendo como resultado **¡Nuestro primer robot movil!.**  :metal: :balloon: :tada: :confetti_ball: :robot:
+
+![Imagen11](https://github.com/HackrobotsMX/LineFollower/blob/master/imagen92.JPG)
