@@ -63,4 +63,38 @@ El regulador LM7805 soporta una tensión o voltaje de entrada de hasta 25V y una
 lo notamos en el parámetro Vi (Voltage input – voltaje de entrada). Esto lo observamos en la siguiente tabla donde lo
 vemos para nuestro regulador 7805.
 
+![Tabla de voltajes de entrada](https://github.com/HackrobotsMX/LineFollower/blob/master/TablaVI.PNG)
 
+
+2. Como se mencionó en el paso 1, empezaremos por la etapa de los sensores, los cuales se encargarán de decirnos
+si hay detección de luz infrarroja o no, por medio de un receptor que tienen los sensores (QRD1114 ó TCRT5000). En las
+siguientes imágenes se muestra como identificar físicamente el ánodo y cátodo del infrarrojo asi como el emisor y
+colector del receptor infrarrojo.
+
+![Sensores](https://github.com/HackrobotsMX/LineFollower/blob/master/sensorinfrarrojo.png)
+
+Sensor TCRT5000 (Izq.) y Sensor QRD1114 (Der.)
+
+Realizaremos la prueba de cada uno de ellos (tú elige solo uno) con el encendido y apagado de LED cuando se detecte la
+luz infrarroja. Cabe mencionar que existen dos configuraciones para la detección de la luz infrarroja, nosotros utilizaremos
+la de colector por que deseamos ir por la línea negra, esta detección nos sirve para indicar si mandaremos un encendido
+o apagado de LED. De igual manera te compartimos el esquema para hacerlo para línea blanca.
+
+**Configuración por colector (línea negra)**
+
+![lineaNegra](https://github.com/HackrobotsMX/LineFollower/blob/master/confColector.PNG)
+
+
+**Configuración por emisor (línea blanca)**
+
+![lineaBlanca](https://github.com/HackrobotsMX/LineFollower/blob/master/confEmisor.PNG)
+
+
+**Circuito físico de sensores IR usando TCRT5000**
+
+![CircuitoSensores](https://github.com/HackrobotsMX/LineFollower/blob/master/Circuito4.JPG)
+
+Una forma de verificar que nuestro sensor infrarrojo funciona es con nuestra cámara de celular, esto es debido a que
+nuestro ojo no lo percibe.
+
+![Prueba](https://github.com/HackrobotsMX/LineFollower/blob/master/Circuito5.jpg)
