@@ -5,7 +5,7 @@ Para la realización de la parte mecánica o el chasis, debemos tener una base q
 
 ### Empecemos.
 
-1.- La Sintra mide aproximadamente lo que es una hoja de tamaño oficio, entonces, pongamos nuestro circuito en lo que será nuestra base y veamos qué tan largo será para posteriormente realizar los cortes. Así como los motores que donde quedará.
+1. La Sintra mide aproximadamente lo que es una hoja de tamaño oficio, entonces, pongamos nuestro circuito en lo que será nuestra base y veamos qué tan largo será para posteriormente realizar los cortes. Así como los motores que donde quedará.
 
 Como se muestra en las 3 siguientes imágenes, se aprecia que la primera es dónde se trazaron los cortes para la base de la protoboard o el circuito.
 En la segunda imagen se muestra lo que sería el corte de la base y donde quedara la protoboard.
@@ -27,7 +27,26 @@ _Y si lo notas en la primera imagen se realizaron todos los cortes._
 ![Imagen3](https://github.com/HackrobotsMX/LineFollower/blob/master/imagen3.JPG)
 
 
-### Sensores
+2. Realizamos una vista previa de nuestra base con los motores y el circuito.
+
+![Imagen 4](https://github.com/HackrobotsMX/LineFollower/blob/master/imagen4.JPG)
+
+
+3. Una vez hecha la vista previa, procedemos a poner la rueda loca, la rueda de preferencia debe estar del tamaño de las llantas para que se vea derecho, _**pero también importa la originalidad**_, entonces puede que se vea como una chopper :joy: jajaja. La rueda se colocará en la parte media de la base y además hasta adelante. _Así como los motores._
+
+![Imagen 5](https://github.com/HackrobotsMX/LineFollower/blob/master/imagen5.JPG)
+
+Como se puede ver la rueda quedo en el centro de la base pero en la parte delantera. Los motores los podemos fijar con kolaloka, no es la mejor práctica pero es práctico y rápido para solucionar el problema, si puedes ponerle cinchos o algo que lo deje justo y no se mueva.
+
+Falta la parte para poner los sensores, además si notas la última imagen ya se le dio forma a la base, es válido ya que es parte de nuestro diseño y tú puedes elegir como será.
+Para los sensores la idea es ponerlos delante de la rueda loca, con una base extra.
+
+Recuerda que es sólo como ejemplo, pero tú puedes hacerlo con el material que esté a tu alcance.
+
+
+## Sensores
 
 
 Para montar los sensores tomaremos una pieza como soporte o base, como se muestra en la siguiente imagen, esta base es de Sintra y se le colocó una cinta de aislar, porque vamos a seguir la línea que por lo regular es de 2 cm de ancho. Esto será referencia para conocer a que distancia se colocarán nuestros sensores.
+
+
