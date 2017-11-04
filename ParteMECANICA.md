@@ -12,6 +12,19 @@ En la segunda imagen se muestra lo que sería el corte de la base y donde quedar
 En la tercera imagen se hace una estimación de cómo quedaría el montaje de los motores.
 _Y si lo notas en la primera imagen se realizaron todos los cortes._
 
+**Imagen 1**
+
+![Imagen1](https://github.com/HackrobotsMX/LineFollower/blob/master/imagen1.JPG)
+
+
+**Imagen 2**
+
+![Imagen2](https://github.com/HackrobotsMX/LineFollower/blob/master/imagen2.JPG)
+
+
+**Imagen 3**
+
+![Imagen3](https://github.com/HackrobotsMX/LineFollower/blob/master/imagen3.JPG)
 
 
 ### Sensores
