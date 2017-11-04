@@ -27,12 +27,13 @@ respectivo conector 
 
 ### Procedimiento:
 
-1. La prueba del seguidor se puede dividir en tres partes: sensores, control y potencia (como se muestra en el circuito
-1), en donde, el orden no afecta ya que llegaremos al mismo resultado.
+1. La prueba del seguidor se puede dividir en tres partes: sensores, control y potencia (como se muestra en la imagen del circuito 1), en donde, el orden no afecta ya que llegaremos al mismo resultado.
 
 Previo al armado del sensor, realizaremos nuestra fuente, en donde, regularemos el voltaje de 7.4 v (las dos baterías
-conectadas en serie) a 5 v por medio de un regulador de voltaje llamado LM7805, el circuito es el siguiente:
+conectadas en serie) a 5v por medio de un regulador de voltaje llamado LM7805, el circuito es el siguiente:
 
 *CIRCUITO 1*
 
-![Diagrama 1](https://github.com/HackrobotsMX/LineFollower/blob/master/diagrama1.PNG)
+![Circuito 1](https://github.com/HackrobotsMX/LineFollower/blob/master/diagrama1.PNG)
+
+
