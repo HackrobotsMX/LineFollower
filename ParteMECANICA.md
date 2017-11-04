@@ -82,7 +82,7 @@ Si tienes alguna duda, puedes contactar a jair@hackrobots.io
 También puedes abrir un Issue.
 
 
-No olvides seguir nuestras redes sociales para noticias y eventos :smiley: :point_down:
+No olvides seguir nuestras redes sociales para noticias y eventos :point_down: :smiley:
 
 ![Facebook](https://www.facebook.com/HackRobotsMX/)
 
