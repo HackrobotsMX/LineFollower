@@ -68,6 +68,8 @@ Por último, tenemos que fijar la base de los sensores con la base dónde se enc
 
 ![Imagen 10](https://github.com/HackrobotsMX/LineFollower/blob/master/imagen91.JPG)
 
+#
+
 Y con esto finalizamos la parte mecánica, teniendo como resultado **¡Nuestro primer robot movil!.**  :metal: :balloon: :tada: :confetti_ball: :robot:
 
 ![Imagen11](https://github.com/HackrobotsMX/LineFollower/blob/master/imagen92.JPG)
