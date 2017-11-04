@@ -73,16 +73,21 @@ colector del receptor infrarrojo.
 
 ![Sensores](https://github.com/HackrobotsMX/LineFollower/blob/master/sensorinfrarrojo.png)
 
+
+
 Sensor TCRT5000 (Izq.) y Sensor QRD1114 (Der.)
+
 
 Realizaremos la prueba de cada uno de ellos (tú elige solo uno) con el encendido y apagado de LED cuando se detecte la
 luz infrarroja. Cabe mencionar que existen dos configuraciones para la detección de la luz infrarroja, nosotros utilizaremos
 la de colector por que deseamos ir por la línea negra, esta detección nos sirve para indicar si mandaremos un encendido
 o apagado de LED. De igual manera te compartimos el esquema para hacerlo para línea blanca.
 
+
 **Configuración por colector (línea negra)**
 
 ![lineaNegra](https://github.com/HackrobotsMX/LineFollower/blob/master/confColector.PNG)
+
 
 
 **Configuración por emisor (línea blanca)**
