@@ -75,7 +75,7 @@ Por último, tenemos que fijar la base de los sensores con la base dónde se enc
 ![Imagen11](https://github.com/HackrobotsMX/LineFollower/blob/master/imagen92.JPG)
 
 
-**Recuerda que es sólo como ejemplo, pero tú puedes hacerlo con el material que este a tu alcance.**
+**Recuerda que es sólo como ejemplo, pero tú puedes hacerlo con el material que esté a tu alcance.**
 
 Si tienes alguna duda, puedes contactar a jair@hackrobots.io
 
