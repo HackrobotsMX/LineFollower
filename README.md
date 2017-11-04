@@ -25,15 +25,23 @@ respectivo conector 
 * Rueda loca 
 * Base para el circuiuto de sensores, control y potencia 20x30cm
 
-### Procedimiento:
+### Procedimiento
 
 1. La prueba del seguidor se puede dividir en tres partes: sensores, control y potencia (como se muestra en la imagen del circuito 1), en donde, el orden no afecta ya que llegaremos al mismo resultado.
 
 Previo al armado del sensor, realizaremos nuestra fuente, en donde, regularemos el voltaje de 7.4 v (las dos baterías
 conectadas en serie) a 5v por medio de un regulador de voltaje llamado LM7805, el circuito es el siguiente:
 
-*CIRCUITO 1*
+_**CIRCUITO 1**_
 
-![Circuito 1](https://github.com/HackrobotsMX/LineFollower/blob/master/diagrama1.PNG)
+![Circuito 1](https://github.com/HackrobotsMX/LineFollower/blob/master/circuito1.PNG)
 
+_**Esquema del circuito 1**_
+
+![Esquema 1](https://github.com/HackrobotsMX/LineFollower/blob/master/esquema1.PNG)
+
+
+#### Nota: Las baterías en serie se conectan de la siguiente manera:
+
+![Circuito 2](https://github.com/HackrobotsMX/LineFollower/blob/master/circuito2.PNG)
 
