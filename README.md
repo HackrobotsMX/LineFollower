@@ -56,3 +56,11 @@ Si usas una batería de 9V alcalina, solo debes conectar el positivo al pin de e
 que es GND (tierra, masa o negativo), como se muestra a continuación:
 
 ![Circuito 3](https://github.com/HackrobotsMX/LineFollower/blob/master/circuito3.PNG)
+
+
+El regulador LM7805 soporta una tensión o voltaje de entrada de hasta 25V y una mínima de 7V, es decir, para tener los
+5V de salida, debemos estar alimentándolo de los 7V hasta los 25V, esto lo sabemos por la hoja de datos (datasheet), y
+lo notamos en el parámetro Vi (Voltage input – voltaje de entrada). Esto lo observamos en la siguiente tabla donde lo
+vemos para nuestro regulador 7805.
+
+
