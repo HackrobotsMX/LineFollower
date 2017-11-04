@@ -35,4 +35,4 @@ conectadas en serie) a 5 v por medio de un regulador de voltaje llamado LM7805, 
 
 *CIRCUITO 1*
 
-![alt text](https://drive.google.com/open?id=0B7GX0e1Sp91EdTg3SWtyYWcwTUU)
+![Diagrama 1](https://github.com/HackrobotsMX/LineFollower/blob/master/diagrama1.PNG)
