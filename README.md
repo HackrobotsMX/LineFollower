@@ -32,11 +32,11 @@ respectivo conector 
 Previo al armado del sensor, realizaremos nuestra fuente, en donde, regularemos el voltaje de 7.4 v (las dos baterías
 conectadas en serie) a 5v por medio de un regulador de voltaje llamado LM7805, el circuito es el siguiente:
 
-_**CIRCUITO 1**_
+**CIRCUITO 1**
 
 ![Circuito 1](https://github.com/HackrobotsMX/LineFollower/blob/master/circuito1.PNG)
 
-_**Esquema del circuito 1**_
+**Esquema del circuito 1**
 
 ![Esquema 1](https://github.com/HackrobotsMX/LineFollower/blob/master/esquema1.PNG)
 
@@ -45,3 +45,14 @@ _**Esquema del circuito 1**_
 
 ![Circuito 2](https://github.com/HackrobotsMX/LineFollower/blob/master/circuito2.PNG)
 
+**Esquema de conexión de baterías**
+
+![Esquema 2](https://github.com/HackrobotsMX/LineFollower/blob/master/esquema2.PNG)
+
+
+Se dice que es una conexión en serie de baterías porque se conecta un positivo de una batería con un negativo de otra
+batería, esto sirve para aumentar el voltaje. Recuerda **no juntar las terminales libres**, porque podrías ocasionar un corto.
+Si usas una batería de 9V alcalina, solo debes conectar el positivo al pin de entrada del regulador y el negativo con el pin
+que es GND (tierra, masa o negativo), como se muestra a continuación:
+
+![Circuito 3](https://github.com/HackrobotsMX/LineFollower/blob/master/circuito3.PNG)
