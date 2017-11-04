@@ -121,4 +121,26 @@ la base que lo ponga en saturación, por lo cual predomina la parte positiva de 
 Te compartimos un ![Video Muestra](https://youtu.be/GUOZxIee6Yk) para que observes la prueba.
 
 
+3. Una vez probada la etapa de los sensores, seguiremos con la parte del control, haciendo uso de una compuerta lógica
+NAND.
 
+Una compuerta NAND es la combinación de una compuerta AND y una compuerta NOT, en donde, la compuerta AND
+funciona como un operador lógico que es la multiplicación y la NOT como un operador lógico que es un inversor.
+
+_A continuación se muestran las respectivas tablas de verdad:_
+
+![Tabla NOT](https://github.com/HackrobotsMX/LineFollower/blob/master/compuertaNot.png)
+
+![Tabla AND](https://github.com/HackrobotsMX/LineFollower/blob/master/compuertaAnd.png)
+
+![Tabla NAND](https://github.com/HackrobotsMX/LineFollower/blob/master/compuertaNand.png)
+
+Como se muestra la compuerta AND realiza una multiplicación de sus entradas y al final se tiene una salida, la operación
+se hace a nivel lógico (1 y 0).
+
+Para el caso de la compuerta NOT solo se tiene una entrada y una salida, es decir, que si algo entra como 1 tendrá una salida en 0. La combinación de ambas compuertas tiene como resultado una compuerta NAND, es decir, multiplican lo que se tienen en la entrada y en la salida, el resultado de la multiplicación será invertido, como se muestra en la siguiente tabla de verdad de la compuerta NAND.
+
+Regresnado a nuestro circuto, cada salida se conectará a una compuerta NAND para acondicional la señal, es decir, de
+un nivel analógico pasará a un nivel digital. El circuito para conectarlo será de la siguiente manera:
+
+Primero se conectara un sensor a una compuerta y el otro sensor a otra compuerta, ademas de unir ambas entradas.
