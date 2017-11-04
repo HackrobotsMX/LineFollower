@@ -140,7 +140,35 @@ se hace a nivel lógico (1 y 0).
 
 Para el caso de la compuerta NOT solo se tiene una entrada y una salida, es decir, que si algo entra como 1 tendrá una salida en 0. La combinación de ambas compuertas tiene como resultado una compuerta NAND, es decir, multiplican lo que se tienen en la entrada y en la salida, el resultado de la multiplicación será invertido, como se muestra en la siguiente tabla de verdad de la compuerta NAND.
 
-Regresnado a nuestro circuto, cada salida se conectará a una compuerta NAND para acondicional la señal, es decir, de
+RegresaNdo a nuestro circuto, cada salida se conectará a una compuerta NAND para acondicionar la señal, es decir, de
 un nivel analógico pasará a un nivel digital. El circuito para conectarlo será de la siguiente manera:
 
-Primero se conectara un sensor a una compuerta y el otro sensor a otra compuerta, ademas de unir ambas entradas.
+Primero se conectará un sensor a una compuerta y el otro sensor a otra compuerta, además de unir ambas entradas.
+
+![Circuito6](https://github.com/HackrobotsMX/LineFollower/blob/master/circuito6.PNG)
+
+La siguiente conexión sera para realizar una memoria pequeña, esto quiere decir que almacenaremos el estado anterior
+de lo que hayan detectado los sensores, esto para seguir con una lógica básica de un seguidor tipo diferencial.
+
+![Circuito7](https://github.com/HackrobotsMX/LineFollower/blob/master/circuito7.PNG)
+
+El circuito tiene un puente o estan unidos los pines 5 y 10. Hasta esta parte tenemos la parte de los sensores con una
+pequeña memoria que almacena el estado anterior de lo que han visto nuestro sensores y eso servirá como referencia
+para que nuestro robot siga la linea.
+
+4. Por último conectaremos a nuestro transistor para darle movimiento a los motores. Para ello requerimos del TIP120
+y unas resistencias para limitar la corriente a la activación del transistor. El TIP120 tiene la configuración en sus pines de
+la siguiente manera:
+
+![Tip120](https://github.com/HackrobotsMX/LineFollower/blob/master/tip120.png)
+
+Una vez que se identificaron las terminales o pines del TIP120, procedemos a realizar la siguiente conexión de los
+transistores con las compuertas NAND.
+
+![Final](https://github.com/HackrobotsMX/LineFollower/blob/master/circuitoFinal.PNG)
+
+Nótese que en el circuito es una referencia se tiene el TIP122, pero en realidad es el 120, lo mismo sucede con los
+sensores, pueden ser el QRD114 pero la configuración o el circuito para ármalo es igual tanto en éste como el TCRT5000
+que se usó en las imágenes anteriores. Además de que el sensor derecho conecta con el motor izquierdo y el sensor
+izquierdo con el derecho, esto se hace para que cuando deje de detectar la línea, se detenga un motor y el otro que
+sigue en movimiento haga que regrese a la línea el sensor que se salió.
